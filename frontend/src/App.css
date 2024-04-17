@@ -1,0 +1,78 @@
+.App {
+    /* text-align: center; */
+    margin: 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-div{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .filter{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+  }
+  .filter >div{
+    height: 25px;
+    width: 40px;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+  }
+  .filter div:nth-child(1) {
+    background-color: #d6d6d6;
+  }
+  .filter div:nth-child(2) {
+    background-color: #449bff;
+  }
+  .filter div:nth-child(3) {
+    background-color: #616161;
+  }
+  .menu{
+    height: 25px;
+    width: 30px;
+  }
+  .status{
+    width: auto;
+    height: 20px;
+    margin-bottom: 10px;
+  }
+  /* App.css */
+  .chart {
+    display: flex;
+    width: 900px;
+    margin-top: 20px;
+  
+    border-bottom: 1px solid #000000;
+    position: relative;
+  }
+  .time-stamp{
+    height: 20px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .event {
+    /* position: absolute; */
+    height: 30px;
+  }
+  
+  .event.yellow {
+    background-color: #FFFF00; /* Yellow */
+  }
+  
+  .event.green {
+    background-color: #008000; /* Green */
+  }
+  
+  .event.red {
+    background-color: #FF0000; /* Red */
+  }
+  
